@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN TIMER </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>COUNT DOWN TIMER</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Enter Date</th>
+                <th>Enter Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" id="date"></td>
+                <td><input type="time" id="time"></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="calculate">Calculate</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+
+<div class="countdown">
+    <div>
+        <p class="heading">Day</p>
+        <div class="time" id="count-days">0</div>
+    </div>
+    <div>
+        <p class="heading">Hours</p>
+        <div class="time" id="count-hours">0</div>
+    </div>
+    <div>
+        <p class="heading">Minutes</p>
+        <div class="time" id="count-minutes">0</div>
+    </div>
+    <div>
+        <p class="heading">Seconds</p>
+        <div class="time" id="count-seconds">0</div>
+    </div>
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
